@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Asistant</class>
+ <widget class="QDialog" name="Asistant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Справка:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>470</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:10pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;Зеленый – вакансия. Выделяется цветом если в имени пользователя присутствует слово вакансия.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:10pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;Серый – списан. Устанавливается в карточке ПК.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:10pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;Светло-серый – на списании. Устанавливается в карточке ПК.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:10pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;Оранжевый – сломан. Устанавливается из контекстного меню (клик ПКМ по строке) выбрав&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt; Установить\снять статус сломан.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Symbol'; font-size:10pt;&quot;&gt;·&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;Красный – не актуальные данные. Устанавливается из контекстного меню (клик ПКМ по строке) &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:10pt;&quot;&gt;выбрав Установить\снять статус не актуальные данные.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>13</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

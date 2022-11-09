@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>servicesmodificata.png</file>
+        <file>delete.png</file>
+        <file>folder.png</file>
+        <file>nav.png</file>
+        <file>New.png</file>
+        <file>print.png</file>
+        <file>update.png</file>
+        <file>rep.png</file>
+        <file>list.png</file>
+        <file>sub.png</file>
+        <file>copy.png</file>
+        <file>folders.png</file>
+        <file>transport.png</file>
+        <file>24-03-2015-491.png</file>
+        <file>main.ico</file>
+        <file>plus.png</file>
+        <file>clear.png</file>
+        <file>data.png</file>
+        <file>style.css</file>
+        <file>60290.png</file>
+        <file>60290.jpg</file>
+        <file>log-format.png</file>
+        <file>file.png</file>
+        <file>hide.png</file>
+        <file>education.png</file>
+        <file>logo_main1.png</file>
+    </qresource>
+</RCC>
